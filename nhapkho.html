@@ -127,7 +127,7 @@
         function checkAuth() {
             const isLoggedIn = sessionStorage.getItem('isLoggedIn');
             if (!isLoggedIn) {
-                window.location.href = 'https://hoangmv.github.io/Data_WH/login.html';
+                window.location.href = 'https://poalninh.github.io/data_wh/login.html';
             }
         }
 
@@ -144,7 +144,7 @@
                 logoutButton.onclick = function () {
                     sessionStorage.removeItem('isLoggedIn');
                     sessionStorage.removeItem('userData');
-                    window.location.href = 'https://hoangmv.github.io/Data_WH/login.html';
+                    window.location.href = 'https://poalninh.github.io/data_wh/login.html';
                 };
 
                 // Thêm vào div chứa các nút
